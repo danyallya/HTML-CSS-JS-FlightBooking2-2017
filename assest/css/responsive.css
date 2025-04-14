@@ -1,0 +1,36 @@
+@media screen and (max-width: 1100px) {
+    #header .items .res-menu {
+        display: block;
+        /*position: absolute;*/
+        /*top: 20px;*/
+        /*margin-right: 16px;*/
+    }
+
+    #header .items {
+        /*overflow: visible;*/
+        padding-top: 66px;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+
+        /* display: table; */
+        padding-bottom: 7px;
+        transition: .33s all ease-out;
+
+    }
+
+    #header .items.active {
+        height: auto;
+    }
+
+    #header .items .item {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    #header .social {
+        display: none;
+    }
+}
